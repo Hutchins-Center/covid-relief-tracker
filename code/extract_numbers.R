@@ -42,4 +42,4 @@ df <-
   select(-c(`...3`, number_and_first_word, unit, word))
 
 df %>% 
-  writexl::write_xlsx('data/covid_relief_tracker.xlsx')
+  writexl::write_xlsx('output/covid_relief_tracker.xlsx')
